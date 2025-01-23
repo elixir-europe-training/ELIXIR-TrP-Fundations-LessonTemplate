@@ -1,24 +1,19 @@
-## 1.1 First subtopic
-Here you can enter text and create inline citations[@Garcia2020] by using the bibtex plugin. Add your references in `references.bib`, and cite [@hoebelheinrich_nancy_j_2022_6769695] by adding the @refid inside brackets like this `[@10.1093/bioinformatics/btt113]`
+## What is the ELIXIR Lesson Template?
 
-You can also embed videos from a local source (with a relative path) or from an url (like youtube). To use a youtube URL, 
-just attach the ID of the video to a youtube embedded video link: `https://youtube.com/embed/`. For example, the Elixir training video `https://youtu.be/oAD8FdGf8tI` has the ID `oAD8FdGf8tI`, so the final link would be:
+The ELIXIR Lesson Template is a standardized framework designed to help educators create high-quality, consistent training materials for life sciences. It uses MkDocs, a static site generator, to produce user-friendly, web-based lessons.
 
-```
-![type:video](https://youtube.com/embed/oAD8FdGf8tI)
-```
+Pros:
 
-![type:video](https://youtube.com/embed/oAD8FdGf8tI)
+* Consistency: Ensures all lessons have a uniform structure, making them easier to follow and maintain.
+* Accessibility: Web-based format allows learners to access materials from anywhere, anytime.
+* Collaboration: Facilitates contributions from multiple authors, enhancing the quality and breadth of content.
+* Customization: Offers flexibility to tailor lessons to specific needs while maintaining a core structure.
+* Integration: Supports various plugins for enhanced functionality, such as video embedding and bibliography management
 
-## 1.2 Second subtopic
+The ELIXIR Lesson template requires some familiarity with MkDocs and Markdown - but this course got you covered for these foundational skills and more!
 
-!!! note "Note"
+!!! note "Training material about the use of the ELIXIR Lesson Template"
 
-    Here you can put a note using admonitions.
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-
-## 1.3 Third subtopic
-
+    We also provide training material about how to use the [ELIXIR Lesson template](https://elixir-europe-training.github.io/ELIXIR-TrP-LessonTemplateInstructions-MkDocs/).
 
 

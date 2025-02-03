@@ -93,7 +93,7 @@ fig.show()
 
 BioRender is an intuitive online platform for creating scientific illustrations. To use it:
 
-Sign up at BioRender.
+Sign up at BioRender (https://www.biorender.com).
 
 Use pre-made icons and templates to create high-quality biological diagrams.
 
@@ -101,7 +101,7 @@ Export your final visual in PNG, SVG, or PDF format.
 
 **Inkscape**
 
-Editing Vector Graphics in Inkscape
+Editing Vector Graphics in Inkscape (https://inkscape.org)
 
 Download and install Inkscape.
 
@@ -129,36 +129,34 @@ dot -Tpng input.dot -o output.png
 
 
 ## 5.4. AI Tools for Visualisations
+AI automates and enhances the creation of scientific visualisations, making them faster and more accessible.
+AI can generate complex visuals from natural language descriptions or structured data.
+Benefits include increased efficiency, accessibility for non-experts, and improved customisation.
 
-How AI is transforming scientific visualisation.
-Benefits of AI tools: automation, speed, accessibility, and enhanced creativity.
-AI's role in generating complex visualisations from natural language or structured data.
+
 **Advantages**: Faster creation, automation, accessibility for non-experts.
 **Limitations**: Potential loss of control over detail, need for manual refinements.
+.
 
 **Napkin AI**
 
-Napkin AI is a tool that simplifies the creation of scientific diagrams through AI-powered automation.
+Napkin AI is a tool that simplifies the creation of scientific diagrams (concept maps, flow diagrams, and data-driven visuals)through AI-powered automation.
+Converts text descriptions into structured diagrams. Enhances flowcharts and concept maps with AI
 
-Converts natural language descriptions into structured diagrams.
-Supports concept maps, flow diagrams, and data-driven charts.
-Generates visually appealing and scientifically accurate graphics.
+Generates concept maps, flow diagrams, and data-driven charts.
+Produces visually appealing and scientifically accurate graphics for scientific communication.
 
 Example Workflow:
-Enter a description (e.g., "Generate a flowchart of the DNA replication process").
-AI processes the input and suggests an optimised diagram.
-Customise the visual and export in PNG, SVG, or PDF formats.
-
-How Napkin AI simplifies diagram creation and ideation through natural language inputs.
-Use cases: Generating concept maps, flow diagrams, and data-driven visuals quickly.
-Creating diagrams from text inputs using Napkin AI
-Enhancing flowcharts and concept maps with AI
+1. Enter a description (e.g., "Generate a flowchart of the DNA replication process").
+2. AI processes the input and suggests an optimised diagram.
+3. Customise the visual and export in PNG, SVG, or PDF formats.
 
 **Other AI tools**
 
 DeepDream Generator (Google): AI-powered visual enhancements and artistic rendering.
 Tableau GPT: AI-enhanced data visualisation for interpreting large datasets.
 DALL·E: AI-generated scientific illustrations from text descriptions.
+
 
 ## 5.5. Embedding Visuals
 

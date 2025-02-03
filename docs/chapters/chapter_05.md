@@ -22,34 +22,76 @@ A scientific visualisation is the process of representing scientific data graphi
 
 ### 5.1.2. How Scientific Visualisations Differ from General Data Visualisations
 
-a) Purpose and Context
+**Purpose and Context**: Scientific Visualisations are used in research and academia to represent complex datasets, simulations, or models in fields like bioinformatics, physics, and climate science. General Data Visualisations, were commonly used in business, marketing, and journalism for trend analysis, performance metrics, and storytelling.
 
-Scientific Visualisations: Used in research and academia to represent complex datasets, simulations, or models in fields like bioinformatics, physics, and climate science.
+**Complexity of Data**:
 
-General Data Visualisations: Commonly used in business, marketing, and journalism for trend analysis, performance metrics, and storytelling.
+Scientific visualisations often deal with multidimensional, high-resolution, or real-time data requiring advanced computational techniques. General data visualisations typically present summarised trends in simple formats like bar charts and pie charts.
 
-b) Complexity of Data
+**Precision and Accuracy**:
 
-Scientific visualisations often deal with multidimensional, high-resolution, or real-time data requiring advanced computational techniques.
-
-General data visualisations typically present summarised trends in simple formats like bar charts and pie charts.
-
-c) Precision and Accuracy
-
-Scientific visualisations must adhere to strict accuracy standards to ensure reproducibility and credibility.
-
-General visualisations may prioritise aesthetics and simplicity over absolute precision.
-
-d) Types of Outputs
-
-Scientific visualisations often include heat maps, molecular structures, 3D models, and interactive simulations.
-
-General visualisations focus more on standard graphs like histograms, line charts, and dashboards.
+Scientific visualisations must adhere to strict accuracy standards to ensure reproducibility and credibility. General visualisations may prioritise aesthetics and simplicity over absolute precision.
 
 
-## Tools for Creating Visualisations
-Traditional tools: R (ggplot2), Python (Matplotlib, Seaborn), and Plotly for data visualization.
-Diagram creation tools: BioRender, Inkscape, Graphviz.
+### 5.1.3. Tools for Creating Visualisations - Traditional tools
+
+**R (ggplot2)**
+
+***Installing ggplot2***
+
+To install and load ggplot2 in R, use the following commands:
+
+install.packages("ggplot2")
+library(ggplot2)
+
+***Creating a Basic Scatter Plot***
+
+data(mtcars)
+ggplot(mtcars, aes(x = wt, y = mpg)) +
+  geom_point() +
+  labs(title = "Scatter Plot of Car Weight vs. MPG", x = "Weight", y = "Miles Per Gallon")
+
+***Customising Colours, Legends, and Axes***
+
+ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(cyl))) +
+  geom_point(size = 3) +
+  scale_colour_manual(values = c("red", "blue", "green")) +
+  labs(title = "Scatter Plot of Car Weight vs. MPG", colour = "Cylinders")
+
+**Python (Matplotlib, Seaborn, Plotly)**
+
+***Creating a Simple Plot with Matplotlib***
+
+import matplotlib.pyplot as plt
+
+x = [1, 2, 3, 4, 5]
+y = [10, 20, 25, 30, 40]
+
+plt.plot(x, y, marker='o', linestyle='-', color='b')
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.title("Basic Line Chart")
+plt.show()
+
+***Using Seaborn for Advanced Statistical Visualisations***
+
+import seaborn as sns
+import pandas as pd
+
+# Load example dataset
+data = sns.load_dataset("iris")
+sns.pairplot(data, hue="species")
+plt.show()
+
+***Generating Interactive Charts with Plotly***
+
+import plotly.express as px
+
+data = px.data.gapminder()
+fig = px.scatter(data, x="gdpPercap", y="lifeExp", color="continent", size="pop", hover_name="country", log_x=True)
+fig.show()
+
+
 
 ## AI Tools for Visualisations
 

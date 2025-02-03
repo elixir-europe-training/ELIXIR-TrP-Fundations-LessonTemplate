@@ -130,9 +130,35 @@ dot -Tpng input.dot -o output.png
 
 ## 5.4. AI Tools for Visualisations
 
-Introduction to AI-powered visualization tools like Napkin AI.
+How AI is transforming scientific visualisation.
+Benefits of AI tools: automation, speed, accessibility, and enhanced creativity.
+AI's role in generating complex visualisations from natural language or structured data.
+**Advantages**: Faster creation, automation, accessibility for non-experts.
+**Limitations**: Potential loss of control over detail, need for manual refinements.
+
+**Napkin AI**
+
+Napkin AI is a tool that simplifies the creation of scientific diagrams through AI-powered automation.
+
+Converts natural language descriptions into structured diagrams.
+Supports concept maps, flow diagrams, and data-driven charts.
+Generates visually appealing and scientifically accurate graphics.
+
+Example Workflow:
+Enter a description (e.g., "Generate a flowchart of the DNA replication process").
+AI processes the input and suggests an optimised diagram.
+Customise the visual and export in PNG, SVG, or PDF formats.
+
 How Napkin AI simplifies diagram creation and ideation through natural language inputs.
 Use cases: Generating concept maps, flow diagrams, and data-driven visuals quickly.
+Creating diagrams from text inputs using Napkin AI
+Enhancing flowcharts and concept maps with AI
+
+**Other AI tools**
+
+DeepDream Generator (Google): AI-powered visual enhancements and artistic rendering.
+Tableau GPT: AI-enhanced data visualisation for interpreting large datasets.
+DALL·E: AI-generated scientific illustrations from text descriptions.
 
 ## 5.5. Embedding Visuals
 

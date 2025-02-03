@@ -36,9 +36,10 @@ A scientific visualisation is the process of representing scientific data graphi
 **Installing ggplot2**
 
 To install and load ggplot2 in R, use the following commands:
-
+```r
 install.packages("ggplot2")
 library(ggplot2)
+```
 
 **Creating a Basic Scatter Plot**
 

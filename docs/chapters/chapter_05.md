@@ -127,17 +127,18 @@ For more: (https://liascript.github.io/course/?https://raw.githubusercontent.com
 Generating Automated Graph Structures
 
 Graphviz allows users to create structured graphs and flowcharts using DOT language.
-
+```
 digraph G {
     A -> B;
     B -> C;
     C -> A;
 }
+```
 
 To render a Graphviz file, use:
-
+```
 dot -Tpng input.dot -o output.png
-
+```
 
 ## 5.4. AI Tools for Visualisations
 AI automates and enhances the creation of scientific visualisations, making them faster and more accessible.

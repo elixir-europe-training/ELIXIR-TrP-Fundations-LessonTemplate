@@ -112,6 +112,8 @@ Use the Pen Tool, Shapes, and Layers to create and modify diagrams.
 
 Export the file in PNG, PDF, or SVG format.
 
+For more: (https://liascript.github.io/course/?https://raw.githubusercontent.com/vibbits/Initiation_GIMP_n_Inkscape/main/Chapters/Chapter02.md#3)
+
 **Graphviz**
 
 Generating Automated Graph Structures

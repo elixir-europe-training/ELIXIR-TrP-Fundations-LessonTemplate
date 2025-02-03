@@ -1,12 +1,12 @@
-## Overview of Scientific Visualizations
+## Overview of Scientific Visualisations
 
 Importance of visuals in making scientific concepts accessible.
 
-## Tools for Creating Visualizations
+## Tools for Creating Visualisations
 Traditional tools: R (ggplot2), Python (Matplotlib, Seaborn), and Plotly for data visualization.
 Diagram creation tools: BioRender, Inkscape, Graphviz.
 
-## AI Tools for Visualizations
+## AI Tools for Visualisations
 
 Introduction to AI-powered visualization tools like Napkin AI.
 How Napkin AI simplifies diagram creation and ideation through natural language inputs.

@@ -40,25 +40,28 @@ To install and load ggplot2 in R, use the following commands:
 install.packages("ggplot2")
 library(ggplot2)
 ```
-
 **Creating a Basic Scatter Plot**
 
+```r
 data(mtcars)
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point() +
   labs(title = "Scatter Plot of Car Weight vs. MPG", x = "Weight", y = "Miles Per Gallon")
-
+```
 **Customising Colours, Legends, and Axes**
 
+```r
 ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(cyl))) +
   geom_point(size = 3) +
   scale_colour_manual(values = c("red", "blue", "green")) +
   labs(title = "Scatter Plot of Car Weight vs. MPG", colour = "Cylinders")
+```
 
 ### 5.2.2. Python (Matplotlib, Seaborn, Plotly)
 
 **Creating a Simple Plot with Matplotlib**
 
+```r
 import matplotlib.pyplot as plt
 
 x = [1, 2, 3, 4, 5]
@@ -69,24 +72,29 @@ plt.xlabel("X-axis")
 plt.ylabel("Y-axis")
 plt.title("Basic Line Chart")
 plt.show()
+```
 
 **Using Seaborn for Advanced Statistical Visualisations**
 
+```r
 import seaborn as sns
 import pandas as pd
 
-#Load example dataset
+# Load example dataset
 data = sns.load_dataset("iris")
 sns.pairplot(data, hue="species")
 plt.show()
+```
 
 **Generating Interactive Charts with Plotly**
 
+```r
 import plotly.express as px
 
 data = px.data.gapminder()
 fig = px.scatter(data, x="gdpPercap", y="lifeExp", color="continent", size="pop", hover_name="country", log_x=True)
 fig.show()
+```
 
 ## 5.3. Tools for Creating Visualisations - Diagram tools
 
@@ -159,6 +167,7 @@ Example Workflow:
 DeepDream Generator (Google): AI-powered visual enhancements and artistic rendering.
 Tableau GPT: AI-enhanced data visualisation for interpreting large datasets.
 DALL·E: AI-generated scientific illustrations from text descriptions.
+mermaid: (https://mermaid.js.org/intro/getting-started.html)
 
 
 ## 5.5. Embedding Visuals

@@ -24,43 +24,39 @@ A scientific visualisation is the process of representing scientific data graphi
 
 **Purpose and Context**: Scientific Visualisations are used in research and academia to represent complex datasets, simulations, or models in fields like bioinformatics, physics, and climate science. General Data Visualisations, were commonly used in business, marketing, and journalism for trend analysis, performance metrics, and storytelling.
 
-**Complexity of Data**:
+**Complexity of Data**: Scientific visualisations often deal with multidimensional, high-resolution, or real-time data requiring advanced computational techniques. General data visualisations typically present summarised trends in simple formats like bar charts and pie charts.
 
-Scientific visualisations often deal with multidimensional, high-resolution, or real-time data requiring advanced computational techniques. General data visualisations typically present summarised trends in simple formats like bar charts and pie charts.
-
-**Precision and Accuracy**:
-
-Scientific visualisations must adhere to strict accuracy standards to ensure reproducibility and credibility. General visualisations may prioritise aesthetics and simplicity over absolute precision.
+**Precision and Accuracy**: Scientific visualisations must adhere to strict accuracy standards to ensure reproducibility and credibility. General visualisations may prioritise aesthetics and simplicity over absolute precision.
 
 
-### 5.1.3. Tools for Creating Visualisations - Traditional tools
+## 5.2. Tools for Creating Visualisations - Traditional tools
 
-**R (ggplot2)**
+### 5.2.1. R (ggplot2)
 
-***Installing ggplot2***
+**Installing ggplot2**
 
 To install and load ggplot2 in R, use the following commands:
 
 install.packages("ggplot2")
 library(ggplot2)
 
-***Creating a Basic Scatter Plot***
+**Creating a Basic Scatter Plot**
 
 data(mtcars)
 ggplot(mtcars, aes(x = wt, y = mpg)) +
   geom_point() +
   labs(title = "Scatter Plot of Car Weight vs. MPG", x = "Weight", y = "Miles Per Gallon")
 
-***Customising Colours, Legends, and Axes***
+**Customising Colours, Legends, and Axes**
 
 ggplot(mtcars, aes(x = wt, y = mpg, colour = factor(cyl))) +
   geom_point(size = 3) +
   scale_colour_manual(values = c("red", "blue", "green")) +
   labs(title = "Scatter Plot of Car Weight vs. MPG", colour = "Cylinders")
 
-**Python (Matplotlib, Seaborn, Plotly)**
+### 5.2.2. Python (Matplotlib, Seaborn, Plotly)
 
-***Creating a Simple Plot with Matplotlib***
+**Creating a Simple Plot with Matplotlib**
 
 import matplotlib.pyplot as plt
 
@@ -73,17 +69,17 @@ plt.ylabel("Y-axis")
 plt.title("Basic Line Chart")
 plt.show()
 
-***Using Seaborn for Advanced Statistical Visualisations***
+**Using Seaborn for Advanced Statistical Visualisations**
 
 import seaborn as sns
 import pandas as pd
 
-# Load example dataset
+#Load example dataset
 data = sns.load_dataset("iris")
 sns.pairplot(data, hue="species")
 plt.show()
 
-***Generating Interactive Charts with Plotly***
+**Generating Interactive Charts with Plotly**
 
 import plotly.express as px
 
@@ -91,15 +87,54 @@ data = px.data.gapminder()
 fig = px.scatter(data, x="gdpPercap", y="lifeExp", color="continent", size="pop", hover_name="country", log_x=True)
 fig.show()
 
+## 5.3. Tools for Creating Visualisations - Diagram tools
+
+**BioRender**
+
+BioRender is an intuitive online platform for creating scientific illustrations. To use it:
+
+Sign up at BioRender.
+
+Use pre-made icons and templates to create high-quality biological diagrams.
+
+Export your final visual in PNG, SVG, or PDF format.
+
+**Inkscape**
+
+Editing Vector Graphics in Inkscape
+
+Download and install Inkscape.
+
+Open an existing SVG file or create a new document.
+
+Use the Pen Tool, Shapes, and Layers to create and modify diagrams.
+
+Export the file in PNG, PDF, or SVG format.
+
+**Graphviz**
+
+Generating Automated Graph Structures
+
+Graphviz allows users to create structured graphs and flowcharts using DOT language.
+
+digraph G {
+    A -> B;
+    B -> C;
+    C -> A;
+}
+
+To render a Graphviz file, use:
+
+dot -Tpng input.dot -o output.png
 
 
-## AI Tools for Visualisations
+## 5.4. AI Tools for Visualisations
 
 Introduction to AI-powered visualization tools like Napkin AI.
 How Napkin AI simplifies diagram creation and ideation through natural language inputs.
 Use cases: Generating concept maps, flow diagrams, and data-driven visuals quickly.
 
-## Embedding Visuals
+## 5.5. Embedding Visuals
 
 Best practices for saving and exporting visuals (SVG, PNG, or PDF formats).
 Integrating visuals into Markdown and HTML.

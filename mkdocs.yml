@@ -3,8 +3,12 @@ nav:
     - About: index.md
     - Course Content:
       - "1. Introduction": chapters/chapter_01.md
-      - "2. Markdown": chapters/chapter_02.md
-      - "3. Github Essentials": chapters/chapter_02.md
+      - "2. Basics of Markdown": chapters/chapter_02.md
+      - "3. Github Essentials": chapters/chapter_03.md
+      - "4. HTML Tips and Tricks": chapters/chapter_04.md
+      - "5. Creating scientific visualisations": chapters/chapter_05.md
+      - "6. Annotation with Bioschemas Training Profile": chapters/chapter_06.md
+      - "7. Conclusions and next steps": chapters/chapter_07.md
       - "References": chapters/references.md
     - "Follow up training": follow_up_training.md
 

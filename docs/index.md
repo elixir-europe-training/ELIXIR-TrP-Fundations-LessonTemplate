@@ -1,4 +1,4 @@
-# ELIXIR Lesson Title 
+# ELIXIR Lesson Foundations for ELIXIR Lesson Template
 
 [add-bioschemas file='_data/metadata.yaml']
 

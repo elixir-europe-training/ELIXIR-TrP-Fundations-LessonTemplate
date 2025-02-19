@@ -1,17 +1,17 @@
-- title: Zeus
+- title: Luciana Peixoto
   content: |
-    [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
-    Lorem ipsum dolor sit amet.
+    [:custom-orcid:](https://orcid.org/0000-0002-3972-3447) [:simple-github:](https://github.com/LucianaPeixoto23) [:simple-linkedin:](https://linkedin.com/uciana-peixoto-991ab7205)<br>
+    BioData.pt
   image: ./assets/images/cards/001-zeus.png
 
-- title: Athena
+- title: Miguel Cisneiros
   content: |
     [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
-    Lorem ipsum dolor sit amet.
+    BioData.pt
   image: ./assets/images/cards/003-athena.png
 
-- title: Poseidon
+- title: Alexander Botzki
   content: |
     [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
-    Lorem ipsum dolor sit amet.
+    VIB.
   image: ./assets/images/cards/007-poseidon.png

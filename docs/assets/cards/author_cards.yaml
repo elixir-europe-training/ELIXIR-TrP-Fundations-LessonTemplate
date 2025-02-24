@@ -1,17 +1,17 @@
-- title: Zeus
+- title: Alexander Botzki
   content: |
-    [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
+    [:custom-orcid:](https://orcid.org/0000-0001-6691-4233) [:simple-github:](https://github.com/abotzki) [:simple-linkedin:](https://linkedin.com/in/alexander-botzki-1323b42)<br>
     Lorem ipsum dolor sit amet.
-  image: ./assets/images/cards/001-zeus.png
+  image: ./assets/images/cards/Alexander_botzki.jpg
 
-- title: Athena
+- title: Luciana Peixoto
   content: |
-    [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
+    [:custom-orcid:](https://orcid.org/0000-0002-3972-3447) [:simple-github:](https://github.com/LucianaPeixoto23) [:simple-linkedin:](https://linkedin.com/in/luciana-peixoto-991ab7205/)<br>
     Lorem ipsum dolor sit amet.
-  image: ./assets/images/cards/003-athena.png
+  image: ./assets/images/cards/Luciana_peixoto.png
 
-- title: Poseidon
+- title: Miguel Cisneiros
   content: |
-    [:custom-orcid:](https://orcid.org/) [:simple-github:](https://github.com/) [:simple-linkedin:](https://linkedin.com/)<br>
+    [:custom-orcid:](https://orcid.org/0000-0002-6681-8564) [:simple-github:](https://github.com/mcisneiros) [:simple-linkedin:](https://linkedin.com/in/miguel-cisneiros/)<br>
     Lorem ipsum dolor sit amet.
-  image: ./assets/images/cards/007-poseidon.png
+  image: ./assets/images/cards/mcisneiros.png

@@ -1,0 +1,17 @@
+- title: Alexander Botzki
+  content: |
+    [:custom-orcid:](https://orcid.org/0000-0001-6691-4233) [:simple-github:](https://github.com/abotzki) [:simple-linkedin:](https://linkedin.com/in/alexander-botzki-1323b42)<br>
+    VIB Bioinformatics Core | ELIXIR Belgium
+  image: ./assets/images/cards/Alexander_botzki.jpg
+
+- title: Luciana Peixoto
+  content: |
+    [:custom-orcid:](https://orcid.org/0000-0002-3972-3447) [:simple-github:](https://github.com/LucianaPeixoto23) [:simple-linkedin:](https://linkedin.com/in/luciana-peixoto-991ab7205/)<br>
+    BioData.pt | ELIXIR Portugal
+  image: ./assets/images/cards/Luciana_Peixoto.JPG
+
+- title: Miguel Cisneiros
+  content: |
+    [:custom-orcid:](https://orcid.org/0000-0002-6681-8564) [:simple-github:](https://github.com/mcisneiros) [:simple-linkedin:](https://linkedin.com/in/miguel-cisneiros/)<br>
+    BioData.pt | ELIXIR Portugal
+  image: ./assets/images/cards/mcisneiros.jpg
